@@ -1,5 +1,5 @@
 //import puppeteer from "puppeteer";
-//const puppeteer = require("puppeteer");
+const puppeteer = require("puppeteer");
 const button = document.getElementById("testbutton");
 
 async function testFunction() {

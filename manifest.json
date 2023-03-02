@@ -1,9 +1,9 @@
 {
-	"name": "D*mnRequirments",
+	"name": "PasswordRequirments",
 	"short_name": "REQ",
 	"description": "checks the password requirments so you don't have to keep guessing until you get it right",
 	"icons": {
-		"src": "",
+		"src": "./images/Logo.png",
 		"sizes": "192x192",
 		"type": "image/png"
 	},
