@@ -1,11 +1,25 @@
-const puppeteer = require("puppeteer");
-const getUrl = async () => window.location.href;
-const pageUrl = getUrl;
+//import puppeteer from "puppeteer";
+//const puppeteer = require("puppeteer");
+const button = document.getElementById("testbutton");
 
-async function scrape(pageUrl) {
+async function testFunction() {
+	console.log(currentUrl);
 	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
-	await page.goto(pageUrl);
+	await page.goto(currentUrl);
+	return currentUrl;
 }
 
-scrape();
+const currentUrl = () => {
+	const url = window.location.href;
+	console.log(url);
+	return url;
+};
+
+function test() {
+	let why = "please just show up";
+	console.log(why);
+}
+
+button.addEventListener("click", test);
+window.addEventListener("load", currentUrl);
