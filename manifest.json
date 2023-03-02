@@ -1,7 +1,7 @@
 {
-	"name": "My App",
-	"short_name": "My App",
-	"description": "Description of my app.",
+	"name": "D*mnRequirments",
+	"short_name": "REQ",
+	"description": "checks the password requirments so you don't have to keep guessing until you get it right",
 	"icons": {
 		"src": "",
 		"sizes": "192x192",
