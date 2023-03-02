@@ -2,11 +2,12 @@
 	"name": "PasswordRequirments",
 	"short_name": "REQ",
 	"description": "checks the password requirments so you don't have to keep guessing until you get it right",
-	"icons": {
-		"src": "./images/Logo.png",
-		"sizes": "192x192",
-		"type": "image/png"
+	"author": "Nolan Higgins",
+	"action": {
+		"default_popup": "index.html",
+		"default_title": "REQ"
 	},
+
 	"start_url": "./index.html",
 	"display": "standalone",
 	"theme_color": "#ffffff",

@@ -1,19 +1,30 @@
 body {
-    background: lightgreen;
-    width: 100vw;
-    height: 100vh;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 
-    .mainDiv {
-        background: lightsalmon;
+    main-container {
+        width: 100%;
+        height: 100%;
+        background: #DAD2BC;
+
+        .title {
+            font-family: 'Shrikhand', cursive;
+            color: #093824;
+        }
+    }
+
+    /*    
+        .mainDiv {
+        background-color: #DAD2BC;
         width: 50%;
         height: 50%;
 
+        
         button {
             font-family: 'Shrikhand', cursive;
         }
     }
+        */
 
 }
