@@ -10,4 +10,7 @@ body .mainDiv {
   background: lightsalmon;
   width: 50%;
   height: 50%;
+}
+body .mainDiv button {
+  font-family: "Shrikhand", cursive;
 }/*# sourceMappingURL=main.css.map */
